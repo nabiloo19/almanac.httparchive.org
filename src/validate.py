@@ -9,7 +9,8 @@ from language import Language, DEFAULT_LANGUAGE
 DEFAULT_YEAR = '2019'
 SUPPORTED_YEARS = {
     # When there is one supported language, it must have a trailing comma.
-    '2019': (Language.ENGLISH,)
+    '2019': (Language.ENGLISH,
+			 Language.SPANISH)
 }
 
 
